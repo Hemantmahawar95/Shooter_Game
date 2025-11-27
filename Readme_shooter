@@ -1,0 +1,75 @@
+A fun and fast shooting game!
+You control a player, shoot enemies, and survive as long as you can. 
+
+## Features
+
+Easy and smooth player movement
+Mouse aiming (the gun follows your mouse)
+Colorful enemies that chase you
+Cool explosion effects when enemies die
+Beautiful star background
+Power-ups that give you special abilities
+Health bar to show your remaining health
+Score increases when you kill enemies
+Game becomes harder over time (more enemies)
+
+## Requirements
+
+Python 3
+Pygame 
+
+## Installation
+
+1. Make sure you have Python installed on your computer
+2. Install Pygame by running:
+```
+pip install pygame
+```
+
+## How to Play
+
+1. Run the game with:
+```
+python shooter_game.py
+```
+
+2. Controls:
+
+   W A S D or Arrow Keys → Move
+   Mouse → Aim
+   Left Mouse Button → Shoot 
+   SPACE → Start / Restart
+   ESC → Quit game
+
+3. Gameplay:
+   You are a blue circle with a gun
+   Enemies come from all sides
+   Shoot them before they reach You 
+   If an enemy touches you → you lose health
+   Game ends when health = 0
+   Killing enemies increases your score
+
+## Game Mechanics
+
+   Enemies spawn from the screen edges
+   Big enemies need more shots and give more points
+   Bullets disappear after some distance
+   When enemies die → small explosion particles appear
+
+##Power-ups appear randomly:
+
+   Health (Green Cross) → +50 health
+   Speed (Cyan Triangle) → Move faster
+   Rapid Fire (Yellow Star) → Shoot faster
+   Damage (Red Diamond) → Bullets hit harder
+
+## Tips
+
+   Always keep moving
+   Try to shoot enemies that are closest
+   Collect power-ups quickly
+   Damage boost is very powerful
+   Speed boost helps in escaping and collecting items
+   Don’t let enemies surround You
+
+Enjoy the game!
